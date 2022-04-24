@@ -1,0 +1,135 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enable entities light source.
+	entities = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				panda = true
+				axolotl = true
+				bee = true
+				arrow = true
+				cow = true
+				spawner_minecart = true
+				magma_cube = true
+				pig = true
+				skeleton = true
+				llama = true
+				mule = true
+				bat = true
+				husk = true
+				hoglin = true
+				rabbit = true
+				firework_rocket = true
+				armor_stand = true
+				giant = true
+				drowned = true
+				experience_orb = true
+				dolphin = true
+				item = true
+				turtle = true
+				salmon = true
+				wither_skeleton = true
+				piglin_brute = true
+				goat = true
+				ocelot = true
+				furnace_minecart = true
+				item_frame = true
+				horse = true
+				phantom = true
+				minecart = true
+				ender_dragon = true
+				leash_knot = true
+				evoker = true
+				marker = true
+				llama_spit = true
+				mooshroom = true
+				glow_squid = true
+				glow_item_frame = false
+				squid = true
+				parrot = true
+				creeper = true
+				lightning_bolt = true
+				enderman = true
+				dragon_fireball = true
+				chicken = true
+				donkey = true
+				evoker_fangs = true
+				chest_minecart = true
+				fox = true
+				tropical_fish = true
+				slime = true
+				pillager = true
+				iron_golem = true
+				zombified_piglin = true
+				area_effect_cloud = true
+				piglin = true
+				blaze = true
+				end_crystal = true
+				endermite = true
+				cat = true
+				zombie = true
+				guardian = true
+				ghast = true
+				sheep = true
+				fireball = true
+				player = true
+				illusioner = true
+				pufferfish = true
+				potion = true
+				eye_of_ender = true
+				wolf = true
+				villager = true
+				zombie_villager = true
+				tnt_minecart = true
+				elder_guardian = true
+				boat = true
+				strider = true
+				polar_bear = true
+				hopper_minecart = true
+				falling_block = true
+				painting = true
+				cave_spider = true
+				witch = true
+				cod = true
+				spider = true
+				command_block_minecart = true
+
+			[light_sources.settings.entities.the_aether]
+				cockatrice = true
+				cockatrice_spit = true
+				golden_swet = true
+				aerbunny = true
+				poison_needle = true
+				aerwhale = true
+				aechor_plant = true
+				blue_swet = true
+				moa = true
+
+			[light_sources.settings.entities.guardvillagers]
+				guard = true
+
+			[light_sources.settings.entities.additionaladditions]
+				glow_stick = true
+
+			[light_sources.settings.entities.edenring]
+				diskwing = true
+
+			[light_sources.settings.entities.tinyskeletons]
+				baby_skeleton = true
+

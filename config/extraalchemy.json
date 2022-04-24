@@ -1,0 +1,26 @@
+{
+  "learningIncreasesExpOrbValue": true,
+  "enableVials": true,
+  "enableRings": true,
+  "enableBrewingStandFire": true,
+  "useAnchorChargesWithReturnPotion": true,
+  "allowRingsInInventoryWithThirdPartyMods": false,
+  "potions": {
+    "magnetism": false,
+    "photosynthesis": false,
+    "crumbling": false,
+    "fuse": false,
+    "recall": true,
+    "sails": true,
+    "returning": true,
+    "learning": true,
+    "concentration": true,
+    "gravity": false,
+    "combustion": true,
+    "pacifism": false,
+    "shrinking": false,
+    "growing": false,
+    "detection": true,
+    "piper": false
+  }
+}

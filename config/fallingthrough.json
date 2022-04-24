@@ -1,0 +1,23 @@
+{
+  "belowDimension": {
+    "desc:": "List of dimension connections for players going below a dimension  Format: FromDimension,ToDimension,XCoordDivider, ZCoordDivider, Y-SpawnType, DimensionBorderTPDistance  FromDimension and ToDimension are ID\u0027s of dimensions, e.g. minecraft:overworld  X and Z Coord dividers are values by which the original player coordinates are divided by  Y-SpawnType is one of these: AIR,GROUND,CAVE  AIR spawns the player as high as possible to the dimensions max height within airblocks.  GROUND spawns the player on the normal groundlevel,  CAVE spawns the player in the first open space going from 0 up.  DimensionBorderTPDistance: Distance from the dimensions border at which the teleport starts  Use [first,second] to list multiple entries.",
+    "belowDimension": [
+      "minecraft:overworld;minecraft:the_nether;8;8;AIR;4",
+      "minecraft:the_end;minecraft:overworld;1;1;AIR;0"
+    ]
+  },
+  "enableAboveDimensionTP": {
+    "desc:": "Turn on teleporting when going above dimension height",
+    "enableAboveDimensionTP": false
+  },
+  "aboveDimension": {
+    "desc:": "Requires enableAboveDimensionTP to be enabled! List of dimension connections for players going above a dimension Format: FromDimension,ToDimension,XCoordDivider, ZCoordDivider, Y-SpawnType, DimensionBorderTPDistance FromDimension and ToDimension are ID\u0027s of dimensions, e.g. minecraft:overworld X and Z Coord dividers are values by which the original player coordinates are divided by Y-SpawnType is one of these: AIR,GROUND,CAVE AIR spawns the player as high as possible to the dimensions max height within airblocks. GROUND spawns the player on the normal groundlevel, CAVE spawns the player in the first open space going from 0 up. DimensionBorderTPDistance: Distance from the dimensions border at which the teleport starts Use [first,second] to list multiple entries.",
+    "aboveDimension": [
+      "minecraft:overworld;the_aether:the_aether;0.512;0.512;GROUND;4"
+    ]
+  },
+  "slowFallDuration": {
+    "desc:": "Duration of the slowfall potion after teleporting, default: 400 ticks (20 ticks \u003d 1 second)",
+    "slowFallDuration": 100
+  }
+}
